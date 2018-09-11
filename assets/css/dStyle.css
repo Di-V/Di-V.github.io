@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100);
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #e3e5e6;	/*цвет фона*/
+    margin: 20px; 			/* Убираем отступы на странице */
+    height: 100%;			
+}
+
+.main {
+    margin: 0 auto;			/* Внешних отступ, делаем элемент по центру */
+    width: 90%;	
+    text-align: left;		/* Текст по центру */
+    color: #000000;
+    box-shadow: 5px;
+}
+
+.main .about {
+    float: left;
+    max-width: 950px;
+    margin-right: 10%;
+}
+
+.main .mail {
+    border-bottom: 2px solid #121212;
+}
+
+.main .emphasize {
+    color: #43A047;
+}
+
+.main h1 {
+    font-size: 160px;
+    font-weight: 700;
+    letter-spacing: -10px;
+    text-indent: -10px;
+}
+
+.main p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.bottomMenu {
+    padding: 18px;			/* Внутренние оступы */
+    position: fixed;		/* Фиксированное позиционирование */
+    bottom: 0;				/* Снизу 0, прижимаем к низу экрана */
+    left: 0;				/* Слева отступ */
+    right: 0;				/* Справа отступ */
+    z-index: 700; 			/*Позиционирование*/
+    text-align: center; 	/*Позиционирование текста*/
+    background-color: #43A047;   
+}
+
+.bottomMenu a {
+    padding: 20px; 			/* Внутренние оступы */
+    color: #E8F5E9;			/* Цвет ссылки */
+    text-decoration: none;	/* Отсутствие нижней линии */
+    margin: 0 30px 0 30px;
+    font-size: 34px;
+}
+
+/*При наведении */
+.bottomMenu a:hover {
+    background-color: #000000;
+}
